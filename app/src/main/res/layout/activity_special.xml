@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/marginTop2"
+        android:onClick="normal"
+        android:text="普通的通知栏" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/marginTop2"
+        android:onClick="progress"
+        android:text="进度条通知栏" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/marginTop2"
+        android:onClick="bigText"
+        android:text="BigText通知栏" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/marginTop2"
+        android:onClick="bigPicture"
+        android:text="BigPicture通知栏" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/marginTop2"
+        android:onClick="inbox"
+        android:text="Inbox通知栏" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/marginTop2"
+        android:onClick="bigContent"
+        android:text="BigContent通知栏" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/marginTop2"
+        android:onClick="hangUp"
+        android:text="悬挂式通知栏" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/marginTop2"
+        android:onClick="imitateQQ"
+        android:text="模仿QQ的通知栏" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/marginTop2"
+        android:onClick="forground"
+        android:text="前台服务通知栏" />
+
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/marginTop2"
+        android:onClick="music"
+        android:text="自定义音乐通知栏" />
+
+
+</LinearLayout>
